@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic-settings
+httpx
+python-jose[cryptography]
+python-multipart
+python-docx
+PyPDF2
+python-pptx
+authlib
+starlette

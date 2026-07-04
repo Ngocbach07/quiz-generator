@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+.gitignore
+README.md
+AGENTS.md
+CLAUDE.md
+backend
+*.log
+.env*
+.DS_Store
+tsconfig.tsbuildinfo
