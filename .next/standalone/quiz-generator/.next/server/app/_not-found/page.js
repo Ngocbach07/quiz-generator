@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__1bfs7da._.js")
+R.c("server/chunks/ssr/1-ei_07yc6nn._.js")
+R.c("server/chunks/ssr/1-ei_next_dist_esm_build_templates_app-page_03967jp.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0ouayk2._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0mmn9kv._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0m4ley9._.js")
+R.c("server/chunks/ssr/1-ei_next_dist_client_components_1amg54n._.js")
+R.c("server/chunks/ssr/1-ei_next_dist_client_components_builtin_forbidden_0m385-s.js")
+R.c("server/chunks/ssr/1-ei_next_dist_client_components_builtin_unauthorized_04rzznb.js")
+R.c("server/chunks/ssr/quiz-generator__next-internal_server_app__not-found_page_actions_0xf4-pu.js")
+R.m(95657)
+module.exports=R.m(95657).exports

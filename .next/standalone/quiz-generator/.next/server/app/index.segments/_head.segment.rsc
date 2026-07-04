@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[74803,["/_next/static/chunks/39qh-j7wgt98c.js","/_next/static/chunks/3gkmsdjuivh0a.js","/_next/static/chunks/22lq1lhh9ggn0.js"],"ViewportBoundary"]
+3:I[74803,["/_next/static/chunks/39qh-j7wgt98c.js","/_next/static/chunks/3gkmsdjuivh0a.js","/_next/static/chunks/22lq1lhh9ggn0.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[70066,["/_next/static/chunks/39qh-j7wgt98c.js","/_next/static/chunks/3gkmsdjuivh0a.js","/_next/static/chunks/22lq1lhh9ggn0.js"],"IconMark"]
+0:{"rsc":["$","$1","h",{"children":[null,["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"QuizHub — AI Quiz Generator"}],["$","meta","1",{"name":"description","content":"Generate AI-powered multiple choice quizzes from documents and text using your own LLM API key."}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","3",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"vjdJZlbMCZL1fBt5ovuPL"}

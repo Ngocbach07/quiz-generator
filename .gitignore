@@ -14,8 +14,13 @@
 /coverage
 
 # next.js
-/.next/
+/.next/*
+!/.next/standalone
+!/.next/static
 /out/
+
+# Don't dump build-manifest duplicates inside standalone
+/.next/standalone/**/node_modules/.cache
 
 # production
 /build

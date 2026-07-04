@@ -1,5 +1,5 @@
+# Docker ignore — keep only what's needed for the prebuilt image
 node_modules
-.next
 .git
 .gitignore
 README.md
@@ -10,3 +10,19 @@ backend
 .env*
 .DS_Store
 tsconfig.tsbuildinfo
+app
+components
+lib
+types
+public/locales
+test
+coverage
+*.md
+eslint.config.mjs
+postcss.config.mjs
+tsconfig.json
+next.config.ts
+package.json
+package-lock.json
+components.json
+.gitattributes

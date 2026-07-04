@@ -2,12 +2,12 @@
 title: QuizHub
 emoji: 🧠
 colorFrom: indigo
-colorTo: violet
+colorTo: purple
 sdk: docker
 app_port: 7860
 pinned: false
 license: mit
-short_description: AI Quiz/MCQ generator with BYOK + multi-document + model scan
+short_description: AI quiz generator with BYOK + multi-doc + model scan
 ---
 
 # QuizHub — AI Quiz/MCQ Generator

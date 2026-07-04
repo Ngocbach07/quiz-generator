@@ -1,0 +1,10 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_global-error/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0ywt3hf._.js")
+R.c("server/chunks/ssr/1-ei_07yc6nn._.js")
+R.c("server/chunks/ssr/1-ei_next_dist_esm_build_templates_app-page_090z466.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0ouayk2._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0mmn9kv._.js")
+R.c("server/chunks/ssr/1-ei_next_dist_client_components_builtin_global-error_0o79ca7.js")
+R.c("server/chunks/ssr/quiz-generator__next-internal_server_app__global-error_page_actions_0j1z2e-.js")
+R.m(65182)
+module.exports=R.m(65182).exports
