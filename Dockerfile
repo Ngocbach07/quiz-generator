@@ -1,8 +1,7 @@
-# syntax=docker/dockerfile:1.7
 # Pre-built Next.js standalone — no build inside HF's constrained builder.
 # Local build artifacts (.next/standalone, .next/static) are committed.
 
-FROM node:20-alpine AS runner
+FROM node:20-alpine
 WORKDIR /app
 
 ENV NODE_ENV=production
@@ -21,8 +20,5 @@ COPY --chown=user:user public ./public
 
 USER user
 EXPOSE 7860
-
-HEALTHCHECK --interval=30s --timeout=10s --start-period=20s --retries=3 \
-  CMD node -e "fetch('http://localhost:7860/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
 
 CMD ["node", "server.js"]
