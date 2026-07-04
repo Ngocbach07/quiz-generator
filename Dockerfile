@@ -9,16 +9,16 @@ ENV NEXT_TELEMETRY_DISABLED=1
 ENV PORT=7860
 ENV HOSTNAME=0.0.0.0
 
-RUN addgroup --system --gid 1000 user && \
-    adduser --system --uid 1000 --ingroup user user
+# The node:20-alpine image already provides a non-root `node` user (UID 1000).
+# Reuse it instead of trying to create a group with GID 1000 (which collides with alpine's `users`).
 
 # Copy the prebuilt standalone server (root = standalone/quiz-generator)
-COPY --chown=user:user .next/standalone/quiz-generator ./
+COPY --chown=node:node .next/standalone/quiz-generator ./
 # Static assets live outside the standalone folder
-COPY --chown=user:user .next/static ./.next/static
-COPY --chown=user:user public ./public
+COPY --chown=node:node .next/static ./.next/static
+COPY --chown=node:node public ./public
 
-USER user
+USER node
 EXPOSE 7860
 
 CMD ["node", "server.js"]
