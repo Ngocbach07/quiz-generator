@@ -252,14 +252,23 @@ export default function SettingsPanel(props: SettingsPanelProps) {
         <CardContent className="space-y-5">
           {/* Question count */}
           <div className="space-y-2">
-            <div className="flex items-center justify-between">
-              <Label className="text-xs font-medium text-muted-foreground flex items-center gap-1.5">
-                <Gauge className="size-3.5" />
-                {t('numQuestions')}
-              </Label>
-              <span className="rounded-md bg-primary/15 px-2 py-0.5 font-mono text-xs tabular-nums text-primary">{questionCount}</span>
-            </div>
-            <Slider value={[questionCount]} onValueChange={(v) => setQuestionCount((v as number[])[0])} min={1} max={50} step={1} className="py-1" />
+            <Label className="text-xs font-medium text-muted-foreground flex items-center gap-1.5" htmlFor="question-count">
+              <Gauge className="size-3.5" />
+              {t('numQuestions')}
+            </Label>
+            <Input
+              id="question-count"
+              type="number"
+              min={1}
+              max={50}
+              step={1}
+              value={questionCount}
+              onChange={(e) => {
+                const n = Math.max(1, Math.min(50, Math.floor(Number(e.target.value) || 1)));
+                setQuestionCount(n);
+              }}
+              className="tabular-nums"
+            />
           </div>
 
           {/* Question type */}
